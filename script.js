@@ -14,7 +14,7 @@ if(navigator.geolocation){
         const api = `https://api.waqi.info/feed/geo:`+ lat + `;` + long +`/?token=7c60b8ffef654a159582542b6d6232f4b61ca88a`;      
     
         $.getJSON(api, function(result){
-            console.log(result); 
+            //console.log(result); 
             var json = JSON.parse(JSON.stringify(result));            
             
             if(json.status == 'error'){
