@@ -1,0 +1,22 @@
+{
+    "name": "Air Quality Index",
+    "short_name": "AQI",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#2196F3",
+    "description": "A AQI App.",  
+    "icons": [
+      {
+        "src": "images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  

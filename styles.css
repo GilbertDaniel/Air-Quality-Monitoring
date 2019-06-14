@@ -1,0 +1,142 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  background-color: #344371;
+  height: 40px;
+  padding: 20px;
+  /* color: #FFF; */
+}
+header .brand{
+  font-size: 25px;
+  color: aliceblue;
+  float: left;
+}
+.container{
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));
+  background-image: -webkit-linear-gradient(top, #311847, #3EB9E6);
+  background-image: -moz-linear-gradient(top, #311847, #3EB9E6);
+  background-image: linear-gradient(to bottom, #311847, #3EB9E6);
+}
+
+.aqi-box{
+
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding:20px;
+  
+  
+ 
+}
+.row1{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.aqi-location{
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.aqi-city{
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.aqi-search-value{
+  text-align: center;
+}
+
+.aqi-icon {
+  width: 100px;
+  
+}
+.row2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.row2 h1{
+  font-size: 25px;
+}
+.row3{
+  margin-top: 20px;
+}
+.row3 h1{
+  font-size: 14px;
+}
+.row4 {
+  margin-top:20px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+input { 
+  width: 100%;
+}
+.row2:hover .aqi-value{
+  color: #41A5CF;
+}
+.row2:hover .aqi-value-type{
+  color: white;
+}
+body {
+  font-weight: 300;  
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI';
+   
+}
+
+.search-box{
+  margin-top: 50px;
+  
+}
+
+.search-box input{
+    height: 35px;
+    border-radius: 35px;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px; */
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.search-box button{
+  background-color: #fff;
+}
+
+.nav{
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.home{
+  width:100%;
+  display: block;
+  background-color: #41A5CF;
+  color: #fff;
+  float: left;
+  padding: 10px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #fff;
+}
