@@ -1,5 +1,5 @@
 {
-    "name": "Air Quality Index",
+    "name": "Air Quality Monitiring",
     "short_name": "AQI",
     "start_url": ".",
     "display": "standalone",
