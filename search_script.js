@@ -14,7 +14,7 @@ $('#text_value').click(function() {
         //console.log(url);
 
         $.getJSON(url, function(result){
-            console.log(result); 
+            //console.log(result); 
             var json = JSON.parse(JSON.stringify(result)); 
             
             if(json.status == 'error'){
