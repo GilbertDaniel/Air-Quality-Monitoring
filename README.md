@@ -1,5 +1,5 @@
-# Air Quakity Index
-Show the air quality index 
+# Air Quakity Monitoring
+
 
 Implemented Features
 
